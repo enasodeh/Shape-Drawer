@@ -12,7 +12,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
 {
-    setWindowTitle("Shapes - Question 4");
+    setWindowTitle("Shape Drawer");
 
     shapeBox = new QComboBox;
     shapeBox->addItem("Circle");
